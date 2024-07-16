@@ -11,8 +11,8 @@ We use poetry to manage the dependencies. You can install the dependencies by ru
 ```
 
 Besides, This program needs two Google API keys:
-- [Google Maps API](https://developers.google.com/maps/documentation/javascript/get-api-key)
-- [Google Custom Search API](https://developers.google.com/custom-search/v1/overview)
+- [Google API](https://console.cloud.google.com/)
+- [Google Custom Search API](https://programmablesearchengine.google.com/controlpanel/all)
 You should copy the `config.example.yaml` file to `config.yaml` and put the keys in the `config.yaml` file.
 ```yaml
     API_KEY: "Your Google API Key"
